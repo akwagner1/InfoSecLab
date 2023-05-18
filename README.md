@@ -19,7 +19,7 @@ This lab consists of the following key components:
 * **Automation:** Utilize Ansible to streamline the deployment and configuration of various components within the lab.
 * **Documentation:** Maintain comprehensive documentation, including setup instructions, configuration guides, and troubleshooting steps to help navigate and understand the lav environment effectively.
 ## Getting Started
-To get started with the lab, please refer to the detailed documentation provided [here](https://github.com/agentwagner/InfoSecLab/GettingStarted). It will guide you through the initial setup process, including hardware requirements, software installation, and configuration steps using VMware ESXI.
+To get started with the lab, please refer to the detailed documentation provided [here](https://github.com/akwagner1/InfoSecLab/GettingStarted). It will guide you through the initial setup process, including hardware requirements, software installation, and configuration steps using VMware ESXI.
 ## Contributions
 ## Disclaimer
 Please note that the lab is intended for educational and learning purposes. Be mindful of legal and ethical considerations when creating a lab and adhere to the terms and conditions of the software and tools used. The creators of this repository are not responsible for any misuse or unauthorized activities performed using the provided information and resources.
