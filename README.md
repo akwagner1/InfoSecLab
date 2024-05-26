@@ -23,5 +23,5 @@ This lab consists of the following key components:
 To get started with the lab, please refer to the detailed documentation provided [here](https://github.com/akwagner1/InfoSecLab/tree/main/GettingStarted). It will guide you through the initial setup process, including hardware requirements, software installation, and configuration steps using VMware ESXI.
 ## Contributions
 ## Disclaimer
-Please note that the lab is intended for educational and learning purposes. Be mindful of legal and ethical considerations when creating a lab and adhere to the terms and conditions of the software and tools used. The creators of this repository are not responsible for any misuse or unauthorized activities performed using the provided information and resources.
+Please note that the lab is intended for educational and learning purposes. Be mindful of legal and ethical considerations when conducting offensive or defensive security operations and adhere to the terms and conditions of the software and tools used. The creators of this repository are not responsible for any misuse or unauthorized activities performed using the provided information and resources.
 ## License
