@@ -1,7 +1,7 @@
 # InfoSecLab
-VMware ESXI lab designed to learn and demonstrate competency in networking, information security, and active directory.
+VMware ESXI lab designed to learn and demonstrate competency in information security, networking, and active directory.
 ## Purpose
-The purpose of this lab is to create an environment to develop practical skills and gain hands-on experience in different areas of information security, including but not limited to:
+The primary purpose of this lab is to create an environment to develop practical skills and gain hands-on experience in different areas of information security, but also showcases basic networking and active directory. The lab includes:
 * Setting up and managing virtual machines (VMs) within a commonly used enterprise hypervisor, VMware ESXI
 * Implementing network security controls
 * Configuring and monitoring intrusion detection and prevention systems (IDS/IPS)
@@ -11,9 +11,9 @@ The purpose of this lab is to create an environment to develop practical skills 
 * And more...
 ## Lab Components
 This lab consists of the following key components:
-* **Hardware Setup:** Utilize one or more Dell PowerEdge servers as the virtualization platform.
-* **Virtualization:** Install VMware ESXI as the hypervisor on the PowerEdge servers to create virtual machines (VMs) for various security tools and systems.
-* **Networking:** Configure a physical firewall (e.g., pfSense) as a gateway between the lav network and the internet, providing security and VPN capabilities.
+* **Hardware Setup:** Utilize a Dell PowerEdge server as the hardware for our virtualization platform.
+* **Virtualization:** Install VMware ESXI as the hypervisor on the PowerEdge server to create virtual machines (VMs) for various security tools and computer systems.
+* **Networking:** Configure a physical firewall (e.g., pfSense) as a gateway between the network and the internet, providing security and VPN capabilities.
 * **VoIP:** Establish a secure VoIP network using Fanvil X5U phones, a dedicated VoIP server VM, and separate VLAN on a managed switch, for secure calling in a simulated office environment.
 * **Domain Controller:** Set up a Windows Server as a domain controller to manage user accounts and provide centralized authentication services.
 * **Client Machines:** Create multiple VMs (Windows and Linux) to simulate different network endpoints, servers, and clients for testing and demonstration purposes.
@@ -24,4 +24,3 @@ To get started with the lab, please refer to the detailed documentation provided
 ## Contributions
 ## Disclaimer
 Please note that the lab is intended for educational and learning purposes. Be mindful of legal and ethical considerations when conducting offensive or defensive security operations and adhere to the terms and conditions of the software and tools used. The creators of this repository are not responsible for any misuse or unauthorized activities performed using the provided information and resources.
-## License
