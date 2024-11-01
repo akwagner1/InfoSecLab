@@ -1,5 +1,5 @@
 # InfoSecLab
-VMware ESXI lab for studying networking, information security, and automation.
+VMware ESXI lab designed to learn and demonstrate competency in networking, information security, and active directory.
 ## Purpose
 The purpose of this lab is to create an environment to develop practical skills and gain hands-on experience in different areas of information security, including but not limited to:
 * Setting up and managing virtual machines (VMs) within a commonly used enterprise hypervisor, VMware ESXI
