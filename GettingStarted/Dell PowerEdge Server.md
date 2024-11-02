@@ -42,4 +42,4 @@ To start our RAID configuration, we will give the server a reboot and then enter
 5. Give the virtual disk a name with no spaces. I just inputted my RAID level here, RAID5. Leave the other options as they are and click next.
 6. Verify the information on this screen matches what you inputted in the previous steps, then click Finish.
 
-It will take some time to configure the setup, so grab some coffee and a snack. Once it is finished, it will be time to install [VMware ESXi]().
+It will take some time to configure the setup, so grab some coffee and a snack. Once it is finished, it will be time to install [VMware ESXi](https://github.com/akwagner1/InfoSecLab/blob/main/GettingStarted/VMware%20ESXi).
