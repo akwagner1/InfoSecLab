@@ -13,12 +13,14 @@ The primary purpose of this lab is to create an environment to develop practical
 This lab consists of the following key components:
 * **Hardware Setup:** Utilize a Dell PowerEdge server as the hardware for our virtualization platform.
 * **Virtualization:** Install VMware ESXI as the hypervisor on the PowerEdge server to create virtual machines (VMs) for various security tools and computer systems.
-* **Networking:** Configure a physical firewall (e.g., pfSense) as a gateway between the network and the internet, providing security and VPN capabilities.
-* **VoIP:** Establish a secure VoIP network using Fanvil X5U phones, a dedicated VoIP server VM, and separate VLAN on a managed switch, for secure calling in a simulated office environment.
+* **Networking:** Configure a firewall (e.g., pfSense) as a gateway between the network and the internet, providing security and VPN capabilities.
 * **Domain Controller:** Set up a Windows Server as a domain controller to manage user accounts and provide centralized authentication services.
 * **Client Machines:** Create multiple VMs (Windows and Linux) to simulate different network endpoints, servers, and clients for testing and demonstration purposes.
+* **Security Tools:** Configure Wazuh as a security information and event manager, and Security Onion as our intrusion detection and prevention system. We will also utilize various other tools as may be native to an information security team.
 * **Automation:** Utilize Ansible to streamline the deployment and configuration of various components within the lab.
 * **Documentation:** Maintain comprehensive documentation, including setup instructions, configuration guides, and troubleshooting steps to help navigate and understand the lav environment effectively.
+* Future
+* **VoIP:** Establish a secure VoIP network using Fanvil X5U phones, a dedicated VoIP server VM, and separate VLAN on a managed switch, for secure calling in a simulated office environment.
 ## Getting Started
 To get started with the lab, please refer to the documentation provided [here](https://github.com/akwagner1/InfoSecLab/tree/main/GettingStarted). It will guide you through the initial setup process, including hardware requirements, software installation, and configuration steps using VMware ESXI.
 ## Contributions
