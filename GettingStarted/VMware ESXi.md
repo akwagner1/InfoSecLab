@@ -16,4 +16,4 @@ VMware ESXi is commonly used in enterprise environments for its efficiency and p
     
 7. Follow the rest of the on screen prompts. Once completed, use the IP address we selected in Step 6 on our local desktop/laptop's web browser. This will bring us to the hypervisor management page.
 
-Now, we can begin installation and setup of our virtual machines. Click [here]() to begin setup of our first VM, which will be a Windows server acting as our domain controller.
+Now, we can begin installation and setup of our virtual machines. Click [here](https://github.com/akwagner1/InfoSecLab/blob/main/GettingStarted/Domain%20Controller.md) to begin setup of our first VM, which will be a Windows server acting as our domain controller.
