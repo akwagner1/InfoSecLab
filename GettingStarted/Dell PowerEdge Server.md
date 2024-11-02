@@ -20,4 +20,5 @@ This hardware setup is pretty straight forward.
 4. Connect your network cable to an ethernet port in the rear. For simplicity throughout this process, we will use NIC 1.
 5. Press the power button found on the front of the server, to the left of the drive bays.
 Once it powers on, you should see it POST on your monitor screen. If you have any errors, refer to Google for troubleshooting.
+
 At this point, we are ready to move on to the next step: Setup with the Lifecycle Controller.
