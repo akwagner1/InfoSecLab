@@ -10,7 +10,7 @@ Before proceding, ensure posession of the following:
 4. VMWare ESXi ISO image for installation
 5. Two USB drives: one for the ESXi ISO, and one that we will add the latest iDRAC firmware to
 6. A computer or laptop with network connectivity to verify remote management configuration
-## Hardware List
+### Hardware List
 [Amazon Shopping List](https://www.amazon.com/hz/wishlist/ls/FFAQ4AJTO8Y9?ref_=wl_share)
 ## Hardware Setup
 This hardware setup is pretty straight forward.
