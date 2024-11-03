@@ -31,3 +31,29 @@ We will need to configure a static IP address so that when we deploy our Wazuh a
 
 If there is proper conenctivity, we can move on to adding this server to our domain.
 ## Joining the Domain
+We need to join this server to the domain so that user accounts and domain resources will be accessible.
+1. Install necessary packages for domain integration: sudo apt install realmd sssd sssd-tools adcli
+2. We can use realm to discover (find) our domain: sudo realm discover DOMAINNAME
+3. After we have determined our domain can be found, we will join the domain: sudo realm join DOMAINNAME -U administrator
+4. To check if the server successfully joined the domain, use: realm list
+## Adding the Domain Admins group to the Sudoers group
+By default, Windows domain admins will not have "administrator" privileges within Linux. We must manually add them to the "sudoers" group. We must use a feature called "visudo" to edit the appropriate file, /etc/sudoers. Although there are other editors available, such as vim or nano, visudo is required as it is safer, providing basic syntax error checks and does not allow the file to be saved if it has detected any errors.
+1. Edit the sudoers file: sudo visudo
+2. Input the following: %domain\ admins@domainname.com ALL=(ALL:ALL) ALL
+
+It's that simple. We should now verify that the domain admins group has been added, and then try to login to a domain admin account and test sudo functionality.
+1. su - username@domainname.com
+2. sudo apt update
+
+If it works, then we have confirmed basic sudo functionality.
+## Installing and Configuring Wazuh
+sudo apt-get install gnupg apt-transport-https
+curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | gpg --no-default-keyring --keyring gnupg-ring:/usr/share/keyrings/wazuh.gpg --import && chmod 644 /usr/share/keyrings/wazuh.gpg
+echo "deb [signed-by=/usr/share/keyrings/wazuh.gpg] https://packages.wazuh.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/wazuh.list
+sudo apt update
+sudo apt install wazuh-manager
+sudo vim /var/ossec/etc/ossec.conf
+sudo systemctl enable wazuh-manager
+sudo systemctl start wazuh-manager
+sudo systemctl status wazuh-manager
+Input IP address into browser to verify use of the Wazuh dashboard
