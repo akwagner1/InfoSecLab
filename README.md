@@ -21,7 +21,7 @@ This lab consists of the following key components:
 * **Documentation:** Maintain comprehensive documentation, including setup instructions, configuration guides, and troubleshooting steps to help navigate and understand the lav environment effectively.
 
 
-* ***Future***
+  ***Future***
 * **Automation:** Utilize Ansible to streamline the deployment and configuration of various components within the lab.
 * **VoIP:** Establish a secure VoIP network using Fanvil X5U phones, a dedicated VoIP server VM, and separate VLAN on a managed switch, for secure calling in a simulated office environment.
 ## Getting Started
