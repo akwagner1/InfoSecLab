@@ -21,6 +21,7 @@ This lab consists of the following key components:
 * **Documentation:** Maintain comprehensive documentation, including setup instructions, configuration guides, and troubleshooting steps to help navigate and understand the lav environment effectively.
 
 * ***Future***
+* **Automation:** Utilize Ansible to streamline the deployment and configuration of various components within the lab.
 * **VoIP:** Establish a secure VoIP network using Fanvil X5U phones, a dedicated VoIP server VM, and separate VLAN on a managed switch, for secure calling in a simulated office environment.
 ## Getting Started
 To get started with the lab, please refer to the documentation provided [here](https://github.com/akwagner1/InfoSecLab/tree/main/GettingStarted). It will guide you through the initial setup process, including hardware requirements, software installation, and configuration steps using VMware ESXI.
