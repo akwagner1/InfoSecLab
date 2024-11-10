@@ -47,13 +47,24 @@ It's that simple. We should now verify that the domain admins group has been add
 
 If it works, then we have confirmed basic sudo functionality.
 ## Installing and Configuring Wazuh
-sudo apt-get install gnupg apt-transport-https
-curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | gpg --no-default-keyring --keyring gnupg-ring:/usr/share/keyrings/wazuh.gpg --import && chmod 644 /usr/share/keyrings/wazuh.gpg
-echo "deb [signed-by=/usr/share/keyrings/wazuh.gpg] https://packages.wazuh.com/4.x/apt/ stable main" | tee -a /etc/apt/sources.list.d/wazuh.list
+1. Execute the following command to install required packages:
+sudo apt-get install gnupg apt-transport-https curl
+2. Import the Wazuh GPG key for package verification:
+curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | gpg --no-default-keyring --keyring gnupg-ring:/usr/share/keyrings/wazuh.gpg --import
+3. Ensure proper permissions for the GPG key:
+sudo chmod 644 /usr/share/keyrings/wazuh.gpg
+4. Add the Wazuh APT repository to your sources list:
+echo "deb [signed-by=/usr/share/keyrings/wazuh.gpg] https://packages.wazuh.com/4.x/apt/ stable main" | sudo tee -a /etc/apt/sources.list.d/wazuh.list
+5. Update the APT package index to include the new Wazuh repository:
 sudo apt update
+6. Install the Wazuh manager:
 sudo apt install wazuh-manager
+7. Edit the Wazuh manager configuration:
 sudo vim /var/ossec/etc/ossec.conf
+8. Enable the Wazuh manager service to start automatically on boot:
 sudo systemctl enable wazuh-manager
+9. Start the Wazuh manager service:
 sudo systemctl start wazuh-manager
+10. Check the status of the Wazuh manager to ensure it is running:
 sudo systemctl status wazuh-manager
-Input IP address into browser to verify use of the Wazuh dashboard
+11. Enter the IP address of the server hosting Wazuh into a browser to verify access to the Wazuh dashboard.
