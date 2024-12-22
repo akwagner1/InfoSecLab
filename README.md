@@ -1,6 +1,6 @@
 # InfoSecLab
 
-Welcome to **InfoSecLab** – a VMware ESXi-based lab environment designed to help you learn and demonstrate competency in **information security**, **networking**, and **active directory**. This lab provides hands-on experience in various areas of security and allows you to explore a range of security tools and practices.
+Welcome to this **InfoSecLab** – a VMware ESXi-based lab environment designed to help you learn and demonstrate competency in **information security**, **networking**, and **active directory**. This lab provides hands-on experience in various areas of security and allows you to explore a range of security tools and practices.
 
 ---
 
@@ -13,7 +13,7 @@ The **primary purpose** of this lab is to create an environment where you can de
 - Configuring and monitoring **intrusion detection and prevention systems (IDS/IPS)**.
 - Deploying and integrating **Security Information and Event Management (SIEM)** solutions.
 - Exploring **security automation and orchestration (SOAR)** tools for effective incident response.
-- Testing and evaluating new **network security products** and features.
+- Testing and evaluating new **network security** products and features.
 - And much more...
 
 ---
@@ -23,16 +23,16 @@ The **primary purpose** of this lab is to create an environment where you can de
 This lab is built using several key components, each serving a specific function in creating a secure and operational environment:
 
 - **Hardware Setup:**  
-   A **Dell PowerEdge** server serves as the hardware for the virtualization platform.
+   A **Dell PowerEdge** server as the hardware for the virtualization platform.
 
 - **Virtualization:**  
-   **VMware ESXi** is installed as the hypervisor on the PowerEdge server, enabling the creation of multiple VMs for various security tools and systems.
+   **VMware ESXi** installed as the hypervisor on the PowerEdge server, enabling the creation of multiple VMs for various security tools and systems.
 
 - **Networking:**  
-   A **firewall** (e.g., **pfSense**) is configured as the gateway between the lab network and the internet, providing essential security and VPN capabilities.
+   A **firewall** (e.g., **pfSense**) configured as the gateway between the lab network and the internet, providing essential security and VPN capabilities.
 
 - **Domain Controller:**  
-   A **Windows Server** is set up as a domain controller to manage user accounts and provide centralized authentication services.
+   A **Windows Server** set up as a domain controller to manage user accounts and provide centralized authentication services.
 
 - **Client Machines:**  
    Multiple VMs (both **Windows** and **Linux**) simulate different network endpoints, servers, and clients for testing and demonstration purposes.
@@ -41,10 +41,10 @@ This lab is built using several key components, each serving a specific function
    Key security tools are configured, including **Wazuh** (SIEM) and **Security Onion** (IDS/IPS). Additional tools native to an information security environment will also be incorporated.
 
 - **Automation:**  
-   **Ansible** is used to streamline the deployment and configuration of various components within the lab, reducing manual intervention.
+   **Ansible** used to streamline the deployment and configuration of various components within the lab, reducing manual intervention.
 
 - **Documentation:**  
-   Comprehensive documentation is maintained, including setup instructions, configuration guides, and troubleshooting steps to help users understand the lab environment effectively.
+   Comprehensive documentation maintained, including setup instructions, configuration guides, and troubleshooting steps to help users understand the lab environment effectively.
 
 ---
 
