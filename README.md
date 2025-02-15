@@ -1,19 +1,18 @@
 # InfoSecLab
 
-Welcome to this **InfoSecLab** – a VMware ESXi-based lab environment designed to help you learn and demonstrate competency in **information security**, **networking**, and **active directory**. This lab provides hands-on experience in various areas of security and allows you to explore a range of security tools and practices.
+Welcome to this **Information Security Lab** – a VMware ESXi-based project environment designed to learn and demonstrate competency in **information security**. This lab provides hands-on experience in various areas of security and allows the user to explore a range of security tools and practices.
 
 ---
 
 ## Purpose
 
-The **primary purpose** of this lab is to create an environment where you can develop practical skills and gain hands-on experience in the following areas:
+The **primary purpose** of this lab is to create an environment to develop practical skills and gain hands-on experience in the following areas:
 
 - Setting up and managing **virtual machines (VMs)** within VMware ESXi, a commonly used enterprise hypervisor.
 - Implementing **network security controls** to protect systems and data.
 - Configuring and monitoring **intrusion detection and prevention systems (IDS/IPS)**.
 - Deploying and integrating **Security Information and Event Management (SIEM)** solutions.
 - Exploring **security automation and orchestration (SOAR)** tools for effective incident response.
-- Testing and evaluating new **network security** products and features.
 - And much more...
 
 ---
@@ -22,7 +21,7 @@ The **primary purpose** of this lab is to create an environment where you can de
 
 This lab is built using several key components, each serving a specific function in creating a secure and operational environment:
 
-- **Hardware Setup:**  
+- **Hardware:**  
    A **Dell PowerEdge** server as the hardware for the virtualization platform.
 
 - **Virtualization:**  
@@ -67,7 +66,7 @@ To get started with setting up the InfoSecLab, please refer to the [Getting Star
 
 ## Contributions
 
-Contributions to the InfoSecLab project are always welcome! If you have suggestions, improvements, or new components to add, please feel free to fork the repository, make changes, and submit a pull request.
+Contributions to the InfoSecLab project are always welcome! If you have suggestions, improvements, or new components to add, please feel free to message the creator.
 
 ---
 
