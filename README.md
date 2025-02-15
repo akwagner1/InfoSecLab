@@ -37,7 +37,7 @@ This lab is built using several key components, each serving a specific function
    Multiple VMs (both **Windows** and **Linux**) simulate different network endpoints, servers, and clients for testing and demonstration purposes.
 
 - **Security Tools:**  
-   Key security tools are configured, including **Wazuh** (SIEM) and **Security Onion** (IDS/IPS). Additional tools native to an information security environment will also be incorporated.
+   Key security tools are configured, including **Wazuh** (SIEM) and **Snort** (IDS/IPS). Additional tools native to an information security environment will also be incorporated.
 
 - **Automation:**  
    **Ansible** used to streamline the deployment and configuration of various components within the lab, reducing manual intervention.
